@@ -26,6 +26,7 @@ int main()
     }
 
 
+    
     //2.) Swap Two Numbers Using a Temporary Variable
 
     int a ,b ,temp;
@@ -44,8 +45,22 @@ int main()
     cout << "After swap  a = "<< a << " , b = "<<b <<endl;
 
 
+    
+    // 3.) Toggle a Boolean Flag
+
+    bool a, b;
+
+    cout << "Enter true or false : ";
+    cin >> a;
+
+    b = !a;
+    cout << boolalpha;
+    cout << "Initial : " << a << endl;
+    cout << "Toggled : " << b;
+
 
     
+        
 
     return 0;
 

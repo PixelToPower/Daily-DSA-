@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
 
-    // Age Estimate From Days Lived
+    // 1.) Age Estimate From Days Lived
 
     int N;
     int y, m, rd, d;
@@ -26,4 +26,8 @@ int main()
     }
 
     return 0;
+
+
+
+    
 }

@@ -59,6 +59,34 @@ int main()
     cout << "Toggled : " << b;
 
 
+
+    // 4.) Final Price After Discount and Tax
+
+
+    float Price , Discount , tax ,taxamt;
+    float dp , finalp ,Discounted_price;
+
+    cout << "Enter Orignal price : ";
+    cin>>Price;
+    cout << "Enter Discount in % : ";
+    cin>>Discount;
+    cout << "Enter tax in % : ";
+    cin>>tax;
+
+
+    dp =  Price * (Discount/100);
+    Discounted_price = Price - dp;
+    
+
+    taxamt = Discounted_price *(tax/100);
+    finalp = Discounted_price + taxamt;
+
+    cout<<fixed<<setprecision(2);
+    cout<<" \nDiscounted Price : "<<Discounted_price<<endl;
+    cout<<"Final Price : "<<finalp <<endl;
+
+
+    
     
         
 

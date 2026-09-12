@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
 
-    // 1.) Age Estimate From Days Lived
+// 1.) Age Estimate From Days Lived
 
     int N;
     int y, m, rd, d;
@@ -27,7 +27,7 @@ int main()
 
 
     
-    //2.) Swap Two Numbers Using a Temporary Variable
+//2.) Swap Two Numbers Using a Temporary Variable
 
     int a ,b ,temp;
     cout<<"Enter a: ";
@@ -47,7 +47,7 @@ int main()
 
 
     
-    // 3.) Toggle a Boolean Flag
+// 3.) Toggle a Boolean Flag
 
     bool a, b;
 
@@ -61,7 +61,7 @@ int main()
 
 
 
-    // 4.) Final Price After Discount and Tax
+// 4.) Final Price After Discount and Tax
     
     float Price , Discount , tax ,taxamt;
     float dp , finalp ,Discounted_price;
@@ -88,7 +88,7 @@ int main()
 
 
     
-    // Withdrawal Validity as a Boolean
+// 5.)  Withdrawal Validity as a Boolean
 
     float accountBalance;
     int withdrawalAmount;
@@ -107,7 +107,36 @@ int main()
     float balance_left = accountBalance - withdrawalAmount -2;
     cout << "Remaining Balance: "<< balance_left;
     }
+
     
+
+// 6.) Largest of Three Numbers (Nested If-Else)
+
+    int a, b, c;
+
+    cout << "Enter a : ";
+    cin >> a;
+    cout << "Enter b : ";
+    cin >> b;
+    cout << "Enter c : ";
+    cin >> c;
+
+    if( a > b){
+        if( a > c){
+            cout<<"A is Largest";
+        }
+        else{
+            cout<<"C is Largest";
+        }
+    }
+    else if(b > c){
+        cout << "B is Largest";
+    }
+
+    else{
+        cout <<"C is Largest";
+    }
+
 
     
 

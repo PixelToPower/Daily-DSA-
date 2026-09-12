@@ -27,3 +27,6 @@ DAY 1:
 
   What I learned : Instead of using nested if i used bool for getting true or false for set of conditions (compound logical conditions).
 
+6.)   Problem Statement: Write a program that takes three distinct integers as input and determines the largest among them using nested if-else       statements (do not use logical AND operators '&&' or built-in max functions).
+
+  What I learned : In this I learned the correct way to use comparision and also conditional statements (nested if-else).

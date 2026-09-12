@@ -45,6 +45,7 @@ int main()
     cout << "After swap  a = "<< a << " , b = "<<b <<endl;
 
 
+
     
     // 3.) Toggle a Boolean Flag
 
@@ -61,8 +62,7 @@ int main()
 
 
     // 4.) Final Price After Discount and Tax
-
-
+    
     float Price , Discount , tax ,taxamt;
     float dp , finalp ,Discounted_price;
 
@@ -86,9 +86,30 @@ int main()
     cout<<"Final Price : "<<finalp <<endl;
 
 
+
     
+    // Withdrawal Validity as a Boolean
+
+    float accountBalance;
+    int withdrawalAmount;
+
+    cout<<"\nNOTE - Transaction fee is 2$\n";
+    cout << "\nEnter Your Account Balance: ";
+    cin >> accountBalance;
+    cout << "Enter Your Withdrawl Amount: ";
+    cin >> withdrawalAmount;
     
-        
+
+    bool Result = withdrawalAmount > 0 && withdrawalAmount%100 == 0 && accountBalance >= withdrawalAmount+2;
+    cout << boolalpha;
+    cout<<"Transaction valid: "<<Result<<endl;
+    if(Result){
+    float balance_left = accountBalance - withdrawalAmount -2;
+    cout << "Remaining Balance: "<< balance_left;
+    }
+    
+
+    
 
     return 0;
 

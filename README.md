@@ -17,7 +17,9 @@ DAY 1:
 
   What I learned : Got the idea how toggling works! and How to get output or take input without messing with values in true or false form ny                       using "boolalpha".
 
+  
 
+DAY 2:
 4.)   Problem Statement: Write a program that takes the original price of an item, a discount percentage, and a sales tax percentage. Calculate       the final payable price. Note: Discount is applied first to the original price, and tax is applied on the discounted price.
 
   What I learned : Learned new term setprecision and in this the result of one calculation was the input for another one (chain calculations).
@@ -32,9 +34,40 @@ DAY 1:
   What I learned : In this I learned the correct way to use comparision and also conditional statements (nested if-else).
 
 
+  
+DAY 3:
+
 7.)    Problem Statement: Write a program to determine if a given calendar year is a leap year. A year is a leap year if it is divisible by 4,         except for end-of-century years (divisible by 100), which must also be divisible by 400.
 
   What I learned : From this problem I found one thing new that is -- We can use multiple conditions in one if block by using && (AND                              OPERATER), || (OR OPERATER).
 
+
+8.)   Problem Statement:
+
+  What I learned : 
+  
+
+8.)   Problem Statement:
+
+  What I learned : 
+
+
+
+DAY 4:
+8.)   Problem Statement:
+
+  What I learned : 
+
+8.)   Problem Statement:
+
+  What I learned : 
+
+8.)   Problem Statement:
+
+  What I learned : 
+
+
+
+  
 
 

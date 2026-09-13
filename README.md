@@ -49,7 +49,7 @@ DAY 3:
 
 9.)   Problem Statement:Write a program to calculate Body Mass Index (BMI = weight_in_kg / (height_in_meters ^ 2)) and classify it into               standard WHO categories using nested conditional logic: Underweight (< 18.5), Normal weight (18.5 - 24.9), Overweight (25 - 29.9), and          Obese (>= 30).
 
-  What I learned : 
+  What I learned : From this problem I learned how BMI calculator actually works on and also learned how to do division from a square value.
 
 
 

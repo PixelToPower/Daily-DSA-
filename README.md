@@ -5,7 +5,7 @@ Solving DSA problems each Day!
 DAY 1:
 1.)   Problem Statement: Write a program that takes the total number of days a person has lived as an integer input and calculates their               approximate age in years, months, and remaining days. Assume 1 year = 365 days and 1 month = 30 days.
 
-  What I learned : Learned using modulo and integer division and get the concept of breaking a big no into smaller like from Total age to         Years-  > months->Days.
+  What I learned : Learned using modulo and integer division and get the concept of breaking a big no into smaller like from Total age to                          Years-  > months->Days.
   
 
 2.)   Problem Statement: Write a program to accept two integer values from standard input, store them in variables 'a' and 'b', and swap              their contents using a third temporary variable 'temp'. Print the values before and after swapping.
@@ -15,7 +15,7 @@ DAY 1:
 
 3.)    Problem Statement: Write a program that initializes a boolean variable representing a system flag (e.g., 'isActive' or 'isOnline').             Simulate an event by toggling the flag to its opposite boolean state using the logical NOT operator and display the result.
 
-  What I learned : Got the idea how toggling works! and How to get output or take input without messing with values in true or false form ny   using "boolalpha".
+  What I learned : Got the idea how toggling works! and How to get output or take input without messing with values in true or false form ny                       using "boolalpha".
 
 
 4.)   Problem Statement: Write a program that takes the original price of an item, a discount percentage, and a sales tax percentage. Calculate       the final payable price. Note: Discount is applied first to the original price, and tax is applied on the discounted price.
@@ -30,3 +30,11 @@ DAY 1:
 6.)   Problem Statement: Write a program that takes three distinct integers as input and determines the largest among them using nested if-else       statements (do not use logical AND operators '&&' or built-in max functions).
 
   What I learned : In this I learned the correct way to use comparision and also conditional statements (nested if-else).
+
+
+7.)    Problem Statement: Write a program to determine if a given calendar year is a leap year. A year is a leap year if it is divisible by 4,         except for end-of-century years (divisible by 100), which must also be divisible by 400.
+
+  What I learned : From this problem I found one thing new that is -- We can use multiple conditions in one if block by using && (AND                              OPERATER), || (OR OPERATER).
+
+
+

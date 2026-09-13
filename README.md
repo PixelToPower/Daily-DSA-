@@ -39,15 +39,15 @@ DAY 3:
 
 7.)    Problem Statement: Write a program to determine if a given calendar year is a leap year. A year is a leap year if it is divisible by 4,         except for end-of-century years (divisible by 100), which must also be divisible by 400.
 
-  What I learned : From this problem I found one thing new that is -- We can use multiple conditions in one if block by using && (AND                              OPERATER), || (OR OPERATER).
+  What I learned : From this problem I found one thing new that is -- We can use multiple conditions in one if block by using && (AND                              OPERATOR), || (OR OPERATOR).
 
 
-8.)   Problem Statement:
+8.)   Problem Statement:Write a program that accepts an integer N and checks if it is divisible by both 3 and 5, only 3, only 5, or neither.           Print an appropriate message for each case.
 
-  What I learned : 
+  What I learned : Practiced % (MODULO OPERATOR) operator.
   
 
-8.)   Problem Statement:
+9.)   Problem Statement:Write a program to calculate Body Mass Index (BMI = weight_in_kg / (height_in_meters ^ 2)) and classify it into               standard WHO categories using nested conditional logic: Underweight (< 18.5), Normal weight (18.5 - 24.9), Overweight (25 - 29.9), and          Obese (>= 30).
 
   What I learned : 
 

@@ -157,6 +157,40 @@ int main()
     }
 
 
+// 8.) Divisible by Both 3 and 5
+
+    int N;
+
+    cout << " \nEnter any natural no.";
+    cin >> N;
+
+    if (N > 0)
+    {
+        if (N % 3 == 0 && N % 5 == 0)
+        {
+            cout << "Divisible by both 3,5.";
+        }
+        else if (N % 3 == 0)
+        {
+            cout << "Divisible by 3 only.";
+        }
+        else if (N % 5 == 0)
+        {
+            cout << "Divisible by 5 only.";
+        }
+        else
+        {
+            cout << "Not Divisible by 3 or 5.";
+        }
+    }
+    else{
+          cout << "Enter Natural NO.";
+    }
+
+
+
+    
+
 
     
     

@@ -308,6 +308,51 @@ int main()
         }
 
 
+
+        
+// 12.) Month to Season Using Fall-Through
+
+
+    int month;
+    
+    cout <<"\nEnter Month no. : ";
+    cin>>month;
+
+    if(month >0 && month <13){
+
+        switch(month){
+            case 12:
+            case 1:
+            case 2:
+                cout<<"Season : Winter"<<endl;
+                break;
+
+            case 3:
+            case 4:
+            case 5:
+                cout<<"Season : Spring"<<endl;
+                break;
+
+            case 6:
+            case 7:
+            case 8:
+                cout<<"Season : Summer"<<endl;
+                break;
+
+            case 9:
+            case 10:
+            case 11:
+                cout<<"Season : Autumn / Monsoon" <<endl;
+                break;
+        }
+
+    }
+    else{
+        cout<<"Enter valid month no. between 1 to 12";
+    }
+
+
+
         
 
 

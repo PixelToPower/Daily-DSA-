@@ -57,14 +57,54 @@ DAY 4:
 10.)   Problem Statement:Write a program to validate whether a given date represented by Day, Month, and Year is valid on the Gregorian                 calendar. Account for differing month lengths (30 vs 31 days) and leap years for February (28 vs 29 days).
 
   What I learned : This problem was. a bit lengthy like it taked me more than 1 hour to solve this and I am more clear about nested if-else and                    comparision operators.
+  
+
+11.)   Problem Statement:Write a menu-driven program using a switch-case statement that takes two operands and an operator character ('+', '-',        '*', '/', '%') and performs the requested arithmetic operation. Handle division by zero gracefully.
+
+  What I learned : Honestly this problem was easy for me because I already did these things in college , But still practice make man perfect!
+
 
 8.)   Problem Statement:
 
   What I learned : 
 
+
+
+DAY 5:
 8.)   Problem Statement:
 
   What I learned : 
+
+
+  8.)   Problem Statement:
+
+  What I learned : 
+
+
+  8.)   Problem Statement:
+
+  What I learned : 
+
+
+
+  DAY 5:
+8.)   Problem Statement:
+
+  What I learned : 
+
+
+  8.)   Problem Statement:
+
+  What I learned : 
+
+
+  8.)   Problem Statement:
+
+  What I learned : 
+
+  
+
+
 
 
 

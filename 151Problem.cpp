@@ -250,6 +250,67 @@ int main()
         }
 
 
+
+        
+// 11.) Simple Calculator Using Switch Case
+
+
+    int a , b , r;
+    char op ;
+
+    cout <<"\nEnter your 1st no. : ";
+    cin >> a;
+    cout <<"\nEnter your 2nd no. : ";
+    cin >> b;
+    cout <<"\nEnter operator ' + , - , / ,* ,% ' : ";
+    cin >> op;
+
+    switch(op){
+
+        case '+':
+            r = a+b;
+            cout <<a<<" + "<<b <<" = "<< r;
+            break;
+
+        case '-':
+            r = a-b;
+            cout <<a<<" - "<<b<<" = "<<r;
+            break;
+
+        case '*':
+            r = a*b;
+            cout <<a<<" * "<<b <<" = "<<r;
+            break;
+
+        case '%':
+            if(b !=0){
+             r = a%b;
+            cout <<a<<" % "<<b <<" = "<<r;
+            }
+            else{
+                cout <<"Denominator can't be zero";
+            }
+            break;
+           
+
+        case '/':
+            if(b !=0){
+            r = a/b;
+            cout <<a<<" / "<<b <<" = "<<r;
+            }
+            else{
+                cout <<"Denominator can't be zero";
+            }
+            break;
+        
+            default:
+                cout<<"Enter valid digits";
+        }
+
+
+        
+
+
     
 
 

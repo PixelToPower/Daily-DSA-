@@ -189,6 +189,67 @@ int main()
 
 
 
+// 10.) Problem Statement & What to Create
+
+    int day, month, year;
+
+    cout << "\nEnter Date in DD MM YY format : ";
+    cin >> day >> month >> year;
+
+    if (day > 0 && month > 0 && year > 0)
+    {
+
+        if (month == 1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10 || month == 12)
+        {
+            if (1 <= day && day <= 31)
+            {
+                cout << "VALID DATE";
+            }
+            else
+            {
+                cout << "INVALID DATE";
+            }
+        }
+        else if (month == 4 || month == 6 || month == 9 || month == 11)
+        {
+            if (1 <= day && day <= 30)
+            {
+                cout << "VALID DATE";
+            }
+            else
+            {
+                cout << "INVALID DATE";
+            }
+        }
+        else if ((year % 4 == 0 && year % 100 != 0 && month == 2) || (year % 400 == 0 && month == 2))
+        {
+            if (1 <= day && day <= 29)
+            {
+                cout << "VALID DATE";
+            }
+            else
+            {
+                cout << "INVALID DATE";
+            }
+        }
+        else if (month == 2)
+        {
+            if (1 <= day && day <= 28)
+            {
+                cout << "VALID DATE";
+            }
+            else
+            {
+                cout << "INVALID DATE";
+            }
+        }
+
+        else
+        {
+            cout << "ENTER VALID MONTH";
+        }
+
+
     
 
 

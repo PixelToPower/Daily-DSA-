@@ -366,6 +366,20 @@ int main()
         
 
 
+        
+  // 14.) Print N to 1 (While Loop)
+
+    int N;
+
+    cout << "Enter any natural no. : ";
+    cin>> N;
+
+
+    while (N >= 1 ){
+        cout << N <<" ";
+        N--;
+
+    }
     
 
 

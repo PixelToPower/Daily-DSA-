@@ -81,9 +81,9 @@ DAY 5:
   What I learned : Learned concept of while loop.
 
 
-  8.)   Problem Statement:
+  15.)   Problem Statement:Write a program to determine whether a given integer N (N > 1) is a prime number or not. Optimize the loop to check           divisibility only up to sqrt(N).
 
-  What I learned : 
+  What I learned : learned how to check prime no. using loop.
 
 
 

@@ -73,12 +73,12 @@ DAY 4:
 DAY 5:
 13.)   Problem Statement: Write a program that takes a positive integer N from the user and prints all natural numbers from 1 up to N separated         by a space using a for loop.
 
-  What I learned : concept of for loop.
+  What I learned : Learned concept of for loop.
 
 
-  14.)   Problem Statement:
+  14.)   Problem Statement: Write a program that takes an integer N and prints all numbers from N down to 1 in reverse order using a while loop.
 
-  What I learned : 
+  What I learned : Learned concept of while loop.
 
 
   8.)   Problem Statement:

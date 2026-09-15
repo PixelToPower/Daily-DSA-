@@ -71,12 +71,12 @@ DAY 4:
 
 
 DAY 5:
-8.)   Problem Statement:
+13.)   Problem Statement: Write a program that takes a positive integer N from the user and prints all natural numbers from 1 up to N separated         by a space using a for loop.
 
-  What I learned : 
+  What I learned : concept of for loop.
 
 
-  8.)   Problem Statement:
+  14.)   Problem Statement:
 
   What I learned : 
 

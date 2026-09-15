@@ -380,6 +380,35 @@ int main()
         N--;
 
     }
+
+
+        
+        
+        
+// 15.) Check Prime Number (Loop)
+
+
+    int N;
+    bool isprime =true;
+    
+    
+    cout<<"Enter any natural no. : ";
+    cin>>N;
+
+    for ( int i = 2 ; i <= sqrt(N) ; i++){
+        if( N%i == 0){
+            isprime = false;
+            break;
+        }
+    }
+
+     if(isprime){
+        cout<<N<<" is a prime no.";
+     }
+     else{
+        cout<<N<<" is not a prime no.";
+     }
+
     
 
 

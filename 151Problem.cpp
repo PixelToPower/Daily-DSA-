@@ -356,7 +356,6 @@ int main()
 // 13.) Print 1 to N (For Loop)
 
     int N;
-    int total;
 
     cout<<"Enter any natural no.";
     cin>>N;

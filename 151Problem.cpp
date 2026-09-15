@@ -351,8 +351,19 @@ int main()
         cout<<"Enter valid month no. between 1 to 12";
     }
 
+        
 
+// 13.) Print 1 to N (For Loop)
 
+    int N;
+    int total;
+
+    cout<<"Enter any natural no.";
+    cin>>N;
+
+    for (int i = 1 ; i <= N ; i++){
+        cout<<i<<" ";
+    }
         
 
 

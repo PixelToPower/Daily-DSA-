@@ -412,6 +412,37 @@ int main()
     
 
 
+
+
+        
+    // 16.) Check Palindrome Number
+
+    int N;
+    int rev = 0;
+
+    cout<<"Enter any integer : ";
+    cin>>N;
+    
+
+    int orignal = N;
+
+    while( N > 0 ){
+        rev = rev * 10 + (N % 10);
+        N =N/10;
+
+    }
+
+
+    if(rev == orignal){
+        cout<<"Palindrom";
+    }
+    else{
+        cout<<" Not Palindrom";
+    }
+
+       
+
+        
     
     
 

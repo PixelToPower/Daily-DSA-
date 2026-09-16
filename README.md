@@ -89,10 +89,12 @@ DAY 5:
 
   DAY 5:
 8.)   Problem Statement: Problem Statement & What to Create
-      Write a program to check whether a given integer is a palindrome (reads the same backward as forward). You must reverse the integer mathematically using loops and modulo arithmetic, without converting it to a string.
+      Write a program to check whether a given integer is a palindrome (reads the same backward as forward). You must reverse the integer             mathematically using loops and modulo arithmetic, without converting it to a string.
 
-  What I learned : 
+  What I learned : Learned how to reverse a number mathematically without converting it to a string — using modulo (%10) to pull out the last                      digit one at a time, and a building formula (rev = rev*10 + digit) to stack those digits into a full reversed number. 
 
+
+  DAY 6:
 
   8.)   Problem Statement:
 

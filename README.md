@@ -96,9 +96,9 @@ DAY 5:
 
   DAY 6:
 
-  8.)   Problem Statement:
+  8.)   Problem Statement: Write a program to generate and print the first N terms of the Fibonacci sequence iteratively. The series starts             with 0 and 1, and each subsequent term is the sum of the previous two terms.
 
-  What I learned : 
+  What I learned : I learned how to print Fibonacci Series and mainly I got the concept of we can also replace the variable value by new sum                       value.
 
 
   8.)   Problem Statement:

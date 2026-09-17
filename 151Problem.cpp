@@ -415,7 +415,7 @@ int main()
 
 
         
-    // 16.) Check Palindrome Number
+// 16.) Check Palindrome Number
 
     int N;
     int rev = 0;
@@ -439,6 +439,42 @@ int main()
     else{
         cout<<" Not Palindrom";
     }
+
+
+
+    
+// 17.) Fibonacci Series (Iterative)
+
+    int N, a, b, next;
+
+    cout << "Enter any natural no. : ";
+    cin >> N;
+    a = 0;
+    b = 1;
+    if (N > 0)
+    {
+        if (N >= 2)
+        {
+            cout << a << " " << b;
+
+            for (int i = 3; i <= N; i++)
+            {
+                next = a + b;
+                cout << " " << next << " ";
+                a = b;
+                b = next;
+            }
+        }
+        else
+        {
+            cout << a;
+        }
+    }
+    else{
+        cout<<"Natural no.s are allowed.";
+    }
+
+        
 
        
 

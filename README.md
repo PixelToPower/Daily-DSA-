@@ -76,19 +76,19 @@ DAY 5:
   What I learned : Learned concept of for loop.
 
 
-  14.)   Problem Statement: Write a program that takes an integer N and prints all numbers from N down to 1 in reverse order using a while loop.
+14.)   Problem Statement: Write a program that takes an integer N and prints all numbers from N down to 1 in reverse order using a while loop.
 
   What I learned : Learned concept of while loop.
 
 
-  15.)   Problem Statement:Write a program to determine whether a given integer N (N > 1) is a prime number or not. Optimize the loop to check           divisibility only up to sqrt(N).
+15.)   Problem Statement:Write a program to determine whether a given integer N (N > 1) is a prime number or not. Optimize the loop to check           divisibility only up to sqrt(N).
 
   What I learned : learned how to check prime no. using loop.
 
 
 
-  DAY 5:
-8.)   Problem Statement: Problem Statement & What to Create
+DAY 5:
+16.)   Problem Statement: Problem Statement & What to Create
       Write a program to check whether a given integer is a palindrome (reads the same backward as forward). You must reverse the integer             mathematically using loops and modulo arithmetic, without converting it to a string.
 
   What I learned : Learned how to reverse a number mathematically without converting it to a string — using modulo (%10) to pull out the last                      digit one at a time, and a building formula (rev = rev*10 + digit) to stack those digits into a full reversed number. 
@@ -96,14 +96,15 @@ DAY 5:
 
   DAY 6:
 
-  8.)   Problem Statement: Write a program to generate and print the first N terms of the Fibonacci sequence iteratively. The series starts             with 0 and 1, and each subsequent term is the sum of the previous two terms.
+17.)   Problem Statement: Write a program to generate and print the first N terms of the Fibonacci sequence iteratively. The series starts             with 0 and 1, and each subsequent term is the sum of the previous two terms.
 
   What I learned : I learned how to print Fibonacci Series and mainly I got the concept of we can also replace the variable value by new sum                       value.
 
+DAY 7:
 
-  8.)   Problem Statement:
+18.)   Problem Statement: Write a program that continuously reads integers from input in a loop and sums them up. As soon as a negative number         or zero is encountered, terminate the loop immediately using the 'break' statement and output the accumulated sum
 
-  What I learned : 
+  What I learned : I learned that if we give input like this: 10 20 30 40 , just seperated by 'space' then cpp read each no different rather                       than a full line statement and learned the break statement.
 
   
 

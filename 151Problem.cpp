@@ -474,6 +474,28 @@ int main()
         cout<<"Natural no.s are allowed.";
     }
 
+
+
+
+// 18.) Break Statement Demo.
+
+   int num ,sum;
+
+   sum = 0 ;
+   cout<<"Enter any natural no.s : ";
+   while (true){
+    
+    cin>>num;
+
+        if(num <= 0){
+            break;
+        }
+
+    sum = num + sum;
+   }
+   cout<<"SUM before break : "<<sum;
+
+
         
 
        

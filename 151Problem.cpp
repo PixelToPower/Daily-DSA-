@@ -496,6 +496,34 @@ int main()
    cout<<"SUM before break : "<<sum;
 
 
+
+
+// 19.) Continue Statement Demo.
+
+
+    int N;
+
+    cout<<"Enter any natural no.";
+    cin>>N;
+
+    if(N > 0 ){
+
+        for(int i = 1 ; i <= N ; i++){
+            
+            if( i % 3 == 0){
+                continue;
+            }
+            cout << i <<" ";
+
+        }
+
+    }
+    else{
+        cout<<"Enter natural no.";
+    }
+
+
+
         
 
        

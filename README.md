@@ -106,6 +106,11 @@ DAY 7:
 
   What I learned : I learned that if we give input like this: 10 20 30 40 , just seperated by 'space' then cpp read each no different rather                       than a full line statement and learned the break statement.
 
+
+19.)   Problem Statement: Write a program that prints all integers from 1 to N, but skips all numbers that are multiples of 3 using the                'continue' statement.
+
+  What I learned : Today i learned continue statement that is used to skip that part in loop after declaration of continue;
+
   
 
 

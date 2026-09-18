@@ -111,6 +111,11 @@ DAY 7:
 
   What I learned : Today i learned continue statement that is used to skip that part in loop after declaration of continue;
 
+
+ 20.)  Problem Statement: Write a program that prints numbers from 1 to N. For multiples of 3, print 'Fizz' instead of the number. For                 multiples of 5, print 'Buzz'. For numbers which are multiples of both 3 and 5, print 'FizzBuzz'.
+
+ What I learned : Practiced loop and if-else statement from this problem.
+
   
 
 

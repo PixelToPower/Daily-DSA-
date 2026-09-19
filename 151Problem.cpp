@@ -1,5 +1,23 @@
 #include <iostream>
+#include <iomanip>
+#include <cmath>
 using namespace std;
+
+
+// 21.) Functions defined:
+
+// Function 1: adds two integers
+int add(int a, int b){
+    return a + b;
+}
+// Function 2: adds two floats.
+float add(float d, float e){
+    return d + e;
+}
+//21) END :)
+
+
+
 
 int main()
 {
@@ -521,6 +539,39 @@ int main()
     else{
         cout<<"Enter natural no.";
     }
+
+
+
+        
+// 21.) Overloaded Functions for Int and Float Addition
+    
+    int a, b, c;
+    float d, e;
+
+    cout << "Press 1 for integer type input and press 2 for decimal type input : ";
+    cin >> c;
+    if (c == 1)
+    {
+        cout << "Enter integer a = ";
+        cin >> a;
+        cout << "ENter integer b = ";
+        cin >> b;
+        int result = add(a , b);        //Calling Function 1 : integer addition;
+        cout<<"Sum = "<<result;
+    }
+    else if (c == 2)
+    {
+        cout << "Enter Decimal value of d = ";
+        cin >> d;
+        cout << "ENter Decimal value of e = ";
+        cin >> e;
+        float result = add(d , e);        //Calling Function 2 : Float addition;
+        cout<<"Sum = "<<result;
+    }
+    else
+        {
+        cout << "Enter 1 or 2 ";
+        }
 
 
 

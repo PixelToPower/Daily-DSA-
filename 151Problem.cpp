@@ -17,6 +17,17 @@ float add(float d, float e){
 //21) END :)
 
 
+// 22.) Functions defined:
+//Function 1:
+void increment(int a){
+    a = a + 1;
+}
+//Function 2:
+void incrementbyref(int &b){
+    b = b + 1;
+}
+
+
 
 
 int main()
@@ -572,6 +583,29 @@ int main()
         {
         cout << "Enter 1 or 2 ";
         }
+
+
+
+
+// 22.) Pass by Value vs Pass by Reference
+
+    int x , y ;
+    
+    cout <<"Enter X = ";
+    cin>>x;
+    cout <<"Enter Y = ";
+    cin>>y;
+
+    increment(x);                            //Calling Function 1 : pass by value;
+    incrementbyref(y);                       //Calling Function 2 :  pass by reference;
+    cout<<"\nPass by value : "<<x <<endl;
+    cout<<"Pass by reference : "<<y;
+
+
+
+
+
+
 
 
 

@@ -121,7 +121,13 @@ DAY 7:
 
  21.)  Problem Statement: Write a clean, well-documented program to implement: "Overloaded Functions for Int and Float Addition". This problem         focuses on mastering concepts in Functions. Design your program following best software practices, handling edge cases, and ensuring            optimal time and space complexity.
 
- What I learned : I learned what are functions ,how to implement them in code and also how to call them. Also find that they are defined                          outside of main function in cpp. and also learned the concept of overloading (same function name ,different behavior based on                   parameter type)
+ What I learned : I learned what are functions ,how to implement them in code and also how to call them. Also find that they are defined                          outside of main function in cpp. and also learned the concept of overloading (same function name ,different behavior based on                   parameter type).
+
+DAY 9:
+
+  22.)   Problem: Write a clean, well-documented program to implement: "Pass by Value vs Pass by Reference". This problem focuses on mastering           concepts in Functions. Design your program following best software practices, handling edge cases, and ensuring optimal time and space          complexity.
+
+   What I learned : Today i learned 2 new concept of Pass by Value and Pass by Reference , Pass by value means : it not changes the original                        value of variable in the main function when it is called instead it takes a copy and make changes to it only; Pass by                           Reference means : It makes directly changes in the original value in the main function.
 
  
 

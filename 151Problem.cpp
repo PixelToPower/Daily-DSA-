@@ -27,6 +27,15 @@ void incrementbyref(int &b){
     b = b + 1;
 }
 
+// 23.) Functions defined:
+//Function 1;
+void add(int x , int y , int &sum , int &multi){
+    sum = x + y;
+    multi = x * y;
+}
+//23) END :)
+
+
 
 
 
@@ -600,6 +609,26 @@ int main()
     incrementbyref(y);                       //Calling Function 2 :  pass by reference;
     cout<<"\nPass by value : "<<x <<endl;
     cout<<"Pass by reference : "<<y;
+
+
+
+
+
+        
+// 23.) Function Returning Multiple Values
+
+    int x, y , sum , multi;
+    cout<<"Enter any x = ";
+    cin>>x;
+    cout<<"Enter any y = ";
+    cin>>y;
+
+    add(x , y ,sum ,multi);                   //Calling addition and multiplication function
+
+    cout<<"SUM : " << sum << ", Multiplication : "<<multi;
+
+
+
 
 
 

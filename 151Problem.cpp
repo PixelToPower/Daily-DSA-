@@ -36,6 +36,30 @@ void add(int x , int y , int &sum , int &multi){
 //23) END :)
 
 
+// 24.) Functions defined:
+// Function 1;
+int add(int a, int b)
+{
+    return a + b;
+}
+// Function 2;
+int multi(int a, int b)
+{
+    return a * b;
+}
+// Function 3;
+int sub(int a, int b)
+{
+    return a - b;
+}
+// Function 4;
+float divi(float a, float b)
+{
+    return a / b;
+}
+//24) END :)
+
+
 
 
 
@@ -626,6 +650,64 @@ int main()
     add(x , y ,sum ,multi);                   //Calling addition and multiplication function
 
     cout<<"SUM : " << sum << ", Multiplication : "<<multi;
+
+
+
+
+
+
+// 24.) Menu-Driven Program Combining Multiple Functions
+
+    
+    int a, b, q;
+    char o;
+
+    cout << "\nEnter a = ";
+    cin>> a;
+    cout << "Enter b = ";
+    cin>> b;
+    cout<<"Enter  1 to continue and 0 for exit : ";
+    cin>>q;
+    while (q != 0)
+    {
+        float r;
+        cout << "Enter Operation : + , - , * , / :  ";
+        cin >> o;
+        if (o == '+')
+        {
+            r = add(a, b);
+            cout << "Sum = " << r;
+        }
+        else if (o == '-')
+        {
+            r = sub(a, b);
+            cout << "Subtraction = " << r;
+        }
+        else if (o == '*')
+        {
+            r = multi(a, b);
+            cout << "Multiply = " << r;
+        }
+        else if (o == '/')
+        {
+            if(b != 0){
+            r = divi(a, b);
+            cout << "Division = " <<r;
+            } 
+            else{
+                cout << "Error b cant be zero";
+            }
+        
+        }
+        else
+        {
+            cout << "Enter valid no.s and operators ";
+        }
+        cout << "\nPress 0 for exit and 1 for continue : ";
+        cin >> q;
+    }
+
+
 
 
 

@@ -136,6 +136,12 @@ DAY 10:
   
   What I learned : Practiced the function calling and implementing.
 
+
+DAY 11:
+  24.)  Problem: Write a clean, well-documented program to implement: "Menu-Driven Program Combining Multiple Functions". This problem focuses          on mastering concepts in Functions. Design your program following best software practices, handling edge cases, and ensuring optimal            time and space complexity.
+
+  What I learned : I did multiple function calling today (calcultor)
+
  
 
   

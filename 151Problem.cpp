@@ -709,6 +709,22 @@ int main()
 
 
 
+        
+// 25.) Declare and Print an Array
+
+    int ar[5] ,res;
+
+    cout<<"Enter 5 nums : ";
+    
+
+    for ( int i = 0 ; i < 5 ; i ++){
+        cin >> ar[i];
+        res = ar[i];
+        cout<<res<<" ";
+    }
+
+
+
 
 
 

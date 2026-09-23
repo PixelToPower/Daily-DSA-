@@ -140,7 +140,14 @@ DAY 10:
 DAY 11:
   24.)  Problem: Write a clean, well-documented program to implement: "Menu-Driven Program Combining Multiple Functions". This problem focuses          on mastering concepts in Functions. Design your program following best software practices, handling edge cases, and ensuring optimal            time and space complexity.
 
-  What I learned : I did multiple function calling today (calcultor)
+  What I learned : I did multiple function calling today (calcultor).
+
+
+DAY 12:
+  25.)  Problem: Write a clean, well-documented program to implement: "Declare and Print an Array". This problem focuses on mastering concepts          in Arrays Basics. Design your program following best software practices, handling edge cases, and ensuring optimal time and space               complexity.
+
+What I learned : Finally array problem has come and I solved them currently thesse are at basic level.
+  
 
  
 

@@ -147,6 +147,12 @@ DAY 12:
   25.)  Problem: Write a clean, well-documented program to implement: "Declare and Print an Array". This problem focuses on mastering concepts          in Arrays Basics. Design your program following best software practices, handling edge cases, and ensuring optimal time and space               complexity.
 
 What I learned : Finally array problem has come and I solved them currently thesse are at basic level.
+
+
+DAY 13:
+  26.)  Problem:Write a clean, well-documented program to implement: "Access and Modify Array Elements by Index". This problem focuses on               mastering concepts in Arrays Basics. Design your program following best software practices, handling edge cases, and ensuring optimal           time and space complexity.
+ 
+What I learned : I learned how to rpelace any num from the list via index no.
   
 
  

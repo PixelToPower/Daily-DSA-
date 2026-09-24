@@ -726,6 +726,25 @@ int main()
 
 
 
+// 26.) Access and Modify Array Elements by Index
+
+    int a[5] ,original;
+
+    for(int i = 0; i < 5 ; i ++){
+        cout<<"Enter no."<< i + 1<< " : ";
+        cin>>a[i];
+    }
+
+    a[3] = 90;
+
+    for(int i = 0; i < 5 ; i++){
+        cout<<a[i]<<" ";
+    }
+
+
+
+
+
 
 
 

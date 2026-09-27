@@ -744,6 +744,32 @@ int main()
 
 
 
+// 27.) Declare and Print a 2D Grid
+
+    int grid[2][2];
+
+    for (int i = 0; i < 2; i++)
+    {
+        for (int j = 0; j < 2; j++)
+        {
+            cout << "Enter values for row " << i << " and for column "<< j << " :";
+            cin >> grid[i][j];
+        
+        }
+    }
+    for (int i = 0; i < 2; i++)
+    {
+        for (int j = 0; j < 2; j++)
+        {   
+            cout<<grid[i][j] <<" ";
+        }
+        cout<<endl;
+    }
+
+
+
+
+
 
 
 

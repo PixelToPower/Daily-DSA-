@@ -150,9 +150,14 @@ What I learned : Finally array problem has come and I solved them currently thes
 
 
 DAY 13:
-  26.)  Problem:Write a clean, well-documented program to implement: "Access and Modify Array Elements by Index". This problem focuses on               mastering concepts in Arrays Basics. Design your program following best software practices, handling edge cases, and ensuring optimal           time and space complexity.
+  26.)  Problem: Write a clean, well-documented program to implement: "Access and Modify Array Elements by Index". This problem focuses on               mastering concepts in Arrays Basics. Design your program following best software practices, handling edge cases, and ensuring optimal           time and space complexity.
  
 What I learned : I learned how to rpelace any num from the list via index no.
+
+DAY 14:
+  26.)  Problem: Write a clean, well-documented program to implement: "Declare and Print a 2D Grid". This problem focuses on mastering concepts         in Arrays Basics. Design your program following best software practices, handling edge cases, and ensuring optimal time and                     space complexity.
+
+  What I Learned : I learned about nested for loop and how make grid a=or we can say matrix type printing;
   
 
  
